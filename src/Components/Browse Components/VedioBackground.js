@@ -17,7 +17,7 @@ const VedioBackground = ({movieId}) => {
             {/* <iframe className="w-[200%] h-[115%] -ml-[55%] -mt-[127px]" */}
             {/* <iframe className="w-[250%] h-[115%] -ml-[80%] -mt-32" */}
             {/* <iframe className="w-[300%] h-[100%] -ml-[100%] -mt-[110px]"  */}
-            <iframe className="h-[210%] -mt-[70px]  w-[100%] md:w-[300%] md:h-[105%] md:-ml-[100%] md:-mt-[110px]" 
+            <iframe className="h-[210%] -mt-[70px]  w-[100%] md:w-[300%] md:h-[105%] md:-ml-[100%] md:-mt-[115px]" 
                 src={`https://www.youtube.com/embed/${trailerVedio?.key}?autoplay=1&color=white&mute=1&controls=0&modestbranding=0&rel=0&showinfo=0&iv_load_policy=3&fs=0&playsinline=1&enablejsapi=1&disablekb=1&loop=1&playlist=${trailerVedio?.key}`}
                 title="YouTube video player" 
                 allow="autoplay; encrypted-media" 

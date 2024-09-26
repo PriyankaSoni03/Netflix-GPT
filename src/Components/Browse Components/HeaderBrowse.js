@@ -53,7 +53,7 @@ const HeaderBrowse = () => {
     }
 
     return(
-        <div className="absolute md:pr-10 z-10 w-screen px-2 md:px-5 pt-4 md:pt-1 flex gap-4 md:gap-0 md:justify-between">
+        <div className="absolute md:pr-7 z-10 w-screen px-2 md:px-5 pt-4 md:pt-1 flex gap-4 md:gap-0 md:justify-between">
             {/* Netflix Logo */}
             <img className="w-28 md:w-48" src={LOGO} alt="Logo"/>
         
