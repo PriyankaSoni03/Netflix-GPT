@@ -6,7 +6,7 @@ const GptMoviesSuggestion = () => {
     if (!Array.isArray(movieNames)) return null;
 
     return (
-        <div className="mt-[320px] md:p-4 ml-2 md:ml-20 bg-black text-white bg-opacity-90 w-[395px] md:w-[1230px] overflow-x-hidden">
+        <div className="mt-[320px] md:p-4 ml-2 md:ml-20 bg-black text-white bg-opacity-90 w-[395px] md:w-[1350px] overflow-x-hidden">
             <div className="">
                 {
                     movieNames.map((movie, index) => (
