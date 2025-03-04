@@ -24,7 +24,7 @@ const GptSearchBar = () => {
         // console.log(searchText.current.value);
         
         const genAI = new GoogleGenerativeAI(GEMINI_KEY);
-        const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+        const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
         const gptQuery = "Act as a movie Recommendation system and suggest some movies for the query : " + 
                     searchText.current.value +
                     ". only give 5 movie names, comma seperated like example result given ahead. Example Result: Gadar, Sholay, Don, Golmaal, Koi mil gaya";
