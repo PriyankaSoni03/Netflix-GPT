@@ -23,7 +23,7 @@ const VedioBackground = ({movieId}) => {
                 allow="autoplay; encrypted-media" 
                 referrerPolicy="strict-origin-when-cross-origin"
                 style={{ pointerEvents: 'none' }} // Disables interaction with the video
-                allowfullscreen
+                allowFullScreen
                 // src="//www.youtube.com/embed/videoid?modestbranding=1&autohide=1&showinfo=0&controls=0" frameborder="0" allowfullscreen
             ></iframe>
         </div>

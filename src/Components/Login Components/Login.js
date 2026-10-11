@@ -20,7 +20,7 @@ const Login = () => {
     const dispatch = useDispatch();
 
     const handleClick = () => {
-        const message = validateData(name.current?.value, email.current?.value, password.current?.value);
+        const message = validateData(name.current?.value, email.current?.value, password.current?.value, isSignInForm);
         setErrorMessage(message);
 
         // console.log(message);
@@ -83,7 +83,7 @@ const Login = () => {
             </div>
 
             {/* Sign-In/Sign-Up Form */}
-            <div className="absolute mt-32 md:mt-36 ml-[25px] md:ml-[550px] bg-black bg-opacity-65 p-5 md:p-14">
+            <div className="absolute mt-32 md:mt-60 ml-[25px] md:ml-[750px] bg-black bg-opacity-65 p-5 md:p-14">
                 <h1 className="text-white text-3xl font-bold mb-7 rounded">{isSignInForm ? "Sign In" : "Sign Up"}</h1>
 
                 <form onSubmit={(e) => e.preventDefault()} className="flex flex-col">
